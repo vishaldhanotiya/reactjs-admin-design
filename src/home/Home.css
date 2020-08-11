@@ -1,0 +1,383 @@
+.App-headers {
+      background-size: 100% 100%;
+      background-color: white;
+}
+.tab {
+      display: flex;
+      margin-top: 25px;
+      align-items: flex-start;
+      width: 85vw;
+}
+.tab-test {
+      display: inline-table;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      margin-left: 15vw;
+      width: 85vw;
+}
+.menu-text {
+      display: flex;
+      align-items: center;
+      font-size: 1em;
+      color: white;
+}
+.chart-tab {
+      margin-top: 5vw;
+      display: flex;
+}
+.inner-tab1{
+      width: 25vw;
+      margin: 20px;
+      box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background-color: #007BFE;
+      height: 23vh;
+}
+.inner-tab2{
+      width: 25vw;
+      margin: 20px;
+      box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background-color: #FFC106;
+      height: 23vh;
+}
+.inner-tab3{
+      width: 25vw;
+      margin: 20px;
+      box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background-color: #27A745;
+      height: 23vh;
+}
+.inner-tab4{
+      width: 25vw;
+      margin: 20px;
+      box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background-color: #D53343;
+      height: 23vh;
+}
+.header-style {
+      display: flex;
+      height: 70px;
+      justify-content: flex-end;
+      align-items: center;
+      background-color: white;
+      box-shadow: 0px 0px 0.3vh black; 
+}
+.title-header {
+      font-weight: bold;
+      display: flex;
+      padding: 10px;
+      margin-left: 20px;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+}
+.mail-image {
+      margin-right: 3vh;
+}
+.title-image {
+      margin-right: 0.8vw;
+}
+.profile-image {
+      margin-left: 1vw;
+      -webkit-clip-path: circle();
+              clip-path: circle();
+      border-width: 2px;
+      background-color: black;
+      width:\"30vw\";
+                 height:\"30vh\";
+}
+.logout-text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+      font-size: 15px;
+      border-radius: 1vh;
+  }
+  .profile-text {
+        display: flex;
+        margin: 15px;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+.buttons {
+      width: 86px;
+      height: 40px;
+      background-color: #f9cb11;
+      border: none;
+      border-radius: 6px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      cursor: pointer;
+      box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+      outline: 0;
+      transition: all 0.25s ease;
+}
+.menu-row {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      font-size: 1em;
+      color: white;
+}
+.tab-text {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      font-weight: bolder;
+      font-size: 1.3em;
+      color: white;
+}
+.tab-value {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding: 20px;
+      font-weight: bolder;
+      font-size: 3em;
+      color: white;
+}
+.image-menu {
+      margin-right: 20px;
+}
+.divider {
+    height: 1px;
+    background-color: white;
+}
+.menu {
+      background-color: #202429;
+      height: 100%;
+      width: 15vw;
+      opacity: 0;
+      position: fixed;
+      visibility: hidden;
+      transition: all 0.25s ease;
+      transform: translateX(-50%);
+      box-shadow: 0px 0px 0.2vh black; 
+}
+.active {
+      opacity: 1;
+      visibility: visible;
+      transition: all 0.25s ease;
+      transform: translateX(0);
+}
+/* / For mobile phones: / */
+@media only screen
+and (min-device-width : 320px)
+ {
+    /* / Styles / */
+    .tab  {
+      display: inline;
+      margin-top: 25px;
+      align-items: flex-start;
+      width: 95vw;
+}
+.tab-test {
+      display: inline-table;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      margin-left: 16vw;
+      width: 85vw;
+      height: 90vh;
+}
+.inner-tab1{
+      width: 75vw;
+      margin: 20px;
+      box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background-color: #007BFE;
+      height: 23vh;
+}
+.inner-tab2{
+      width: 75vw;
+      margin: 20px;
+      box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background-color: #FFC106;
+      height: 23vh;
+}
+.inner-tab3{
+      width: 75vw;
+      margin: 20px;
+      box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background-color: #27A745;
+      height: 23vh;
+}
+.inner-tab4{
+      width: 75vw;
+      margin: 20px;
+      box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background-color: #D53343;
+      height: 23vh;
+}
+.menu-text {
+      display: none;
+      align-items: center;
+      font-size: 1em;
+      color: white;
+}
+.menu-row {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      font-size: 1em;
+      color: white;
+}
+.menu {
+      background-color: #202429;
+      width: 16vw;
+}
+.chart-tab {
+      margin-top: 25px;
+      display: inline;
+}
+.logout-text {
+      display: none;
+      justify-content: space-between;
+      align-items: center;
+      color: black;
+      font-size: 15px;
+      border-radius: 1vh;
+  }
+}
+@media only screen and (min-width: 600px) {
+      /* / For tablets: / */
+      .tab  {
+        display: inline;
+        margin-top: 25px;
+        align-items: flex-start;
+        width: 95vw;
+  }
+    .chart-tab {
+          margin-top: 25px;
+          display: inline;
+    }
+    .inner-tab1{
+          width: 45vw;
+          margin: 20px;
+          box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+          border-radius: 10px;
+          background-color: #007BFE;
+          height: 23vh;
+    }
+
+    .inner-tab2{
+           width: 45vw;
+          margin: 20px;
+          box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+          border-radius: 10px;
+          background-color: #FFC106;
+          height: 23vh;
+    }
+
+
+    .inner-tab3{
+           width: 45vw;
+          margin: 20px;
+          box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+          border-radius: 10px;
+          background-color: #27A745;
+          height: 23vh;
+    }
+
+
+    .inner-tab4{
+           width: 45vw;
+          margin: 20px;
+          box-shadow: -0.01px -0.01px 5px 2px rgba(0, 0, 0, 0.2);
+          border-radius: 10px;
+          background-color: #D53343;
+          height: 23vh;
+    }
+    .tab-test {
+          display: inline-table;
+          align-items: flex-start;
+          justify-content: space-evenly;
+          margin-left: 40vw;
+          width: 85vw;
+    }
+    .menu-text {
+          display: flex;
+          align-items: center;
+          font-size: 1em;
+          color: white;
+    }
+    .menu-row {
+          display: flex;
+          align-items: center;
+          padding: 20px;
+          font-size: 1em;
+          color: white;
+    }
+    .menu {
+          background-color: #202429;
+
+          width: 35vw;
+    }
+    .logout-text {
+          display: none;
+          justify-content: space-between;
+          align-items: center;
+          color: black;
+          font-size: 15px;
+          border-radius: 1vh;
+
+      }
+
+}
+@media only screen and (min-width: 768px) {
+      /* / For desktop: / */
+      .tab  {display: flex;
+        margin-top: 25px;
+        align-items: flex-start;
+        width: 85vw;
+  }
+  .chart-tab {
+        margin-top: 25px;
+        display: flex;
+  }
+  .tab-test {
+        display: inline-table;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        margin-left: 280px;
+        width: 85vw;
+  }
+  .menu-row {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        font-size: 1em;
+        color: white;
+  }
+  .menu-row {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        font-size: 1em;
+        color: white;
+  }
+  .menu {
+        background-color: #202429;
+        width: 280px;
+  }
+  .logout-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+        font-size: 15px;
+        border-radius: 1vh;
+
+    }
+  
+}
