@@ -1,2 +1,2 @@
-# reactjs_admin_design
+# reactjs-admin-design
 Create Admin Home screen design 
